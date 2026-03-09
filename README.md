@@ -1,50 +1,124 @@
-# Welcome to your Expo app 👋
+# Gotani POS
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplikasi **Point of Sales (POS) berbasis mobile** yang dikembangkan menggunakan **React Native (Expo) dan Firebase**.
+Aplikasi ini dirancang untuk membantu usaha kecil atau UMKM dalam mengelola transaksi penjualan secara digital, mencatat riwayat transaksi, serta memantau laporan penjualan secara praktis melalui perangkat mobile.
 
-## Get started
+---
 
-1. Install dependencies
+## Preview Aplikasi
 
-   ```bash
-   npm install
-   ```
+![Spash Screen](screenshots/splashscreen.png)
+![Login Admin Screen](screenshots/loginadmin.png)
+![Login Karyawan Screen](screenshots/loginkaryawan.png)
+![Dashboard](screenshots/beranda.png)
+![Manage Product](screenshots/kelolaproduk.png)
+![Riwayat Transaksi](screenshots/riwayattransaksi.png)
+![Report](screenshots/laporan.png)
+![Transaction](screenshots/transaksi.png)
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## Features
 
-In the output, you'll find options to open the app in a
+- Autentikasi pengguna (Login & Register)
+- Dashboard penjualan
+- Manajemen transaksi
+- Riwayat transaksi
+- Laporan penjualan
+- Pengaturan akun pengguna
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Tech Stack
 
-## Get a fresh project
+Frontend
 
-When you're ready, run:
+- React Native
+- Expo
+- TypeScript
 
-```bash
-npm run reset-project
+Backend
+
+- Firebase Authentication
+- Firebase Firestore
+
+Tools
+
+- Expo Router
+- Node.js
+- Git & GitHub
+
+---
+
+## Project Structure
+
+```
+gotani-pos
+│
+├── app
+│   ├── (tabs)
+│   │   ├── index.tsx
+│   │   ├── transaksi.tsx
+│   │   ├── laporan.tsx
+│   │   └── pengaturan.tsx
+│   │
+│   └── auth
+│       ├── login.tsx
+│       └── register.tsx
+│
+├── components
+│
+├── services
+│   └── firebase.ts
+│
+├── assets
+│
+├── screenshots
+│
+├── README.md
+├── package.json
+└── app.json
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Installation
 
-To learn more about developing your project with Expo, look at the following resources:
+Clone repository
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```
+git clone https://github.com/callmezaa/GOTANI-POS-APP.git
+```
 
-## Join the community
+Masuk ke folder project
 
-Join our community of developers creating universal apps.
+```
+cd gotani-pos
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Install dependencies
+
+```
+npm install
+```
+
+Jalankan aplikasi
+
+```
+npx expo start
+```
+
+Aplikasi dapat dijalankan menggunakan **Expo Go** atau emulator Android.
+
+---
+
+## Author
+
+**Ken Zamariyan**
+Informatics Engineering Student
+
+---
+
+## License
+
+This project is licensed under the MIT License.
