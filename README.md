@@ -7,14 +7,24 @@ Aplikasi ini dirancang untuk membantu usaha kecil atau UMKM dalam mengelola tran
 
 ## Preview Aplikasi
 
-![Spash Screen](screenshots/splashscreen.png)
-![Login Admin Screen](screenshots/loginadmin.png)
-![Login Karyawan Screen](screenshots/loginkaryawan.png)
-![Dashboard](screenshots/beranda.png)
-![Manage Product](screenshots/kelolaproduk.png)
-![Riwayat Transaksi](screenshots/riwayattransaksi.png)
-![Report](screenshots/laporan.png)
-![Transaction](screenshots/transaksi.png)
+<p align="center">
+  <img src="screenshots/splashscreen.png" width="220"/>
+  <img src="screenshots/loginadmin.png" width="220"/>
+  <img src="screenshots/loginkaryawan.png" width="220"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/beranda.png" width="220"/>
+  <img src="screenshots/kelolaproduk.png" width="220"/>
+  <img src="screenshots/riwayattransaksi.png" width="220"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/laporan.png" width="220"/>
+  <img src="screenshots/transaksi.png" width="220"/>
+</p>
+
+---
 
 ---
 

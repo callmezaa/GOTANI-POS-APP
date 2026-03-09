@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "501369925087",
+    "project_id": "kasir-app-afec0",
+    "storage_bucket": "kasir-app-afec0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501369925087:android:4f04df032a0b6688cfe86a",
+        "android_client_info": {
+          "package_name": "com.kasironline.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfwRkjeMl68R_eirBlLJcSB688i1YWwzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
